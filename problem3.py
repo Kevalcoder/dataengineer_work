@@ -9,7 +9,7 @@ import logging
 logging.basicConfig(filename='training.log', level=logging.INFO)
 
 # Load data
-data = pd.read_csv('new_dataset.csv')
+data = pd.read_parquet('new_dataset.parquet')
 
 print(data.head(1000))
 # Remove rows with NaN values
