@@ -11,3 +11,6 @@ There is 4 files
 
 1. Problem1, Problem2, Problem3, Problem4
 
+I dockerize the whole solution. I write a script to docker in which 4 soultions is running.
+
+
