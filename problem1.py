@@ -37,7 +37,7 @@ final_data = final_df[['Symbol', 'Security Name', 'Date', 'Open', 'High', 'Low',
 
 
 
-# Print the combined dataframe
+# output to parquet structed
 final_data.to_parquet('data.parquet')
 
 
