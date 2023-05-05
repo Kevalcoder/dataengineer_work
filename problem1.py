@@ -38,7 +38,7 @@ final_data = final_df[['Symbol', 'Security Name', 'Date', 'Open', 'High', 'Low',
 
 
 # Print the combined dataframe
-final_data.to_csv('data.csv')
+final_data.to_parquet('data.parquet')
 
 
 
